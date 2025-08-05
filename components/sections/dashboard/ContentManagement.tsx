@@ -335,12 +335,12 @@ export const ContentManagement: React.FC = () => {
         <p className="text-gray-600">Manage your knowledge base documents</p>
       </div>
 
-      {/* <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 sm:p-6">
+      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 sm:p-6">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-lg sm:text-xl font-semibold text-gray-900">
             Document Repository
           </h2>
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+          {/* <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
             <button className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-3 sm:px-4 py-2 rounded-lg transition-colors min-h-[44px] text-sm sm:text-base">
               <Upload className="w-4 h-4" />
               <span
@@ -361,7 +361,7 @@ export const ContentManagement: React.FC = () => {
               <span className="hidden sm:inline">Re-index All</span>
               <span className="sm:hidden">Re-index</span>
             </button>
-          </div> 
+          </div>  */}
         </div>
 
        
@@ -469,7 +469,7 @@ export const ContentManagement: React.FC = () => {
             </tbody>
           </table>
         </div>
-      </div>  */}
+      </div> 
 
       {/* Upload Area */}
       <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 sm:p-6">
